@@ -1333,6 +1333,19 @@ body {
     height: 100%
 }
 
+.logo a {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+    display: block;
+    margin: 0 auto;
+    background: url(http://www.shinehook.com/mainlogo.png) left top no-repeat;
+    background-size: 13.63636em 4.09091em;
+    width: 13.63636em;
+    height: 4.09091em
+}
+
 .site_discount_notice {
     display: none
 }
