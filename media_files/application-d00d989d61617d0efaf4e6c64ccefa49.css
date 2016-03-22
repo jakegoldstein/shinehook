@@ -52,21 +52,7 @@ mark {
     background: #ff0;
     color: #000
 }
-code,
-kbd,
-pre,
-samp {
-    font-family: monospace, serif;
-    font-size: 1em
-}
-pre {
-    white-space: pre;
-    white-space: pre-wrap;
-    word-wrap: break-word
-}
-q {
-    quotes: "\201C" "\201D" "\2018" "\2019"
-}
+
 small {
     font-size: 80%
 }
@@ -101,37 +87,11 @@ legend {
     border: 0;
     padding: 0
 }
-button,
-input,
-select,
-textarea {
-    font-family: inherit;
-    font-size: 100%;
-    margin: 0
-}
-button,
-input {
-    line-height: normal
-}
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-    -webkit-appearance: button;
-    cursor: pointer
-}
-button[disabled],
-input[disabled] {
-    cursor: default
-}
-
-
 a:hover,
 a:focus {
     color: #fff;
     background-color: red
 }
-
 ul {
     list-style: none;
     padding: 0
@@ -164,9 +124,9 @@ textarea {
     padding: 0.18182em
 }
 
-}
 
-}
+
+
 html {
     height: 100%;
     -webkit-touch-callout: none;
@@ -262,10 +222,6 @@ body {
 #nav-main {
     float: left
 }
-
-
-
-
 .home {
     background: #000;
     color: #fff
@@ -345,35 +301,14 @@ body {
 
 
 }
-.about .blurb {
-    height: auto;
-    margin: 5.63636em auto 0;
-    padding: 0;
-    width: 35em
-}
-.contact h2 {
-    float: left;
-    font-weight: normal;
-    margin-top: 7.27273em;
-    text-align: right;
-    width: 31.27273em
-}
-
-
-
-
-
-
-
-
 
 #social {
     margin-top: 35px
 }
 
-}
+
 #social #instagram {
     background-position: 0px -20px
 }
 
-}
+
