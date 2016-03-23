@@ -184,7 +184,11 @@ body.home a:hover,
 body.home a:focus {
     background-color: #FFC0CB
 }
-
+body.home a:hover span,
+body.home a:focus span {
+    color: #fff;
+    background-color: #FFC0CB
+}
 ul {
     list-style: none;
     padding: 0
@@ -503,9 +507,9 @@ body {
     display: block;
     margin: 0 auto;
     background: url(http://www.shinehook.com/mainlogo.png) left top no-repeat;
-    background-size: 22.572680000000002em 9.218183em;
-    width: 22.572680000000002em;
-    height: 9.218183em
+    background-size: 17.63636em 7.09091em;
+    width: 17.63636em;
+    height: 7.09091em
 }
 .home .logo:before {
     content: "";
