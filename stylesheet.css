@@ -164,7 +164,7 @@ a {
 a:hover,
 a:focus {
     color: #fff;
-    background-color: red
+    background-color: #FFC0CB;
 }
 body.home a {
     padding: 7px 40px 7px 0
@@ -175,15 +175,16 @@ body.home a.no-right-padding {
 body.home a span {
     padding: 0 2px
 }
+
+.media p a {
+    text-decoration: underline;
+}
+
 body.home a:hover,
 body.home a:focus {
-    background-color: inherit
+    background-color: #FFC0CB
 }
-body.home a:hover span,
-body.home a:focus span {
-    color: #fff;
-    background-color: red
-}
+
 ul {
     list-style: none;
     padding: 0
@@ -563,6 +564,14 @@ body {
     width: 50%
 }
 
+.media .blurb {
+    .about .blurb {
+    height: auto;
+    margin: 5.63636em auto 0;
+    padding: 0;
+    width: 35em
+
+}
 
 .about .blurb {
     height: auto;
@@ -582,7 +591,9 @@ body {
     body.home,
     body.layout1,
     body.news,
-    body.about {
+    body.about,
+    body.media
+     {
         min-width: 0 !important
     }
     .news #nav {
