@@ -581,7 +581,8 @@ body {
 @media all and (max-width: 63.75em) {
     body.home,
     body.layout1,
-    body.news {
+    body.news,
+    body.about {
         min-width: 0 !important
     }
     .news #nav {
@@ -652,7 +653,7 @@ body {
 @media all and (max-height: 40.625em) {
     #header {
         height: auto;
-        margin: 2.54545em auto 4.09091em
+        margin: 3.54545em auto 4.09091em
     }
     #header hgroup {
         bottom: auto;
