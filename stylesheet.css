@@ -648,3 +648,24 @@ body {
         margin-bottom: 4.36364em
     }
 }
+
+@media all and (max-height: 40.625em) {
+    #header {
+        height: auto;
+        margin: 2.54545em auto 4.09091em
+    }
+    #header hgroup {
+        bottom: auto;
+        left: auto;
+        margin: 0 auto;
+        position: relative;
+        width: 18.18182em
+    }
+    .preview-item #header {
+        margin-top: 0;
+        height: 50%
+    }
+    .home #header {
+        margin: 5.45455em auto 4.09091em
+    }
+}
