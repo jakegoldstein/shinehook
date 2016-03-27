@@ -596,8 +596,7 @@ body {
     body.layout1,
     body.news,
     body.about,
-    body.media
-     {
+    body.media {
         min-width: 0 !important
     }
     .news #nav {
