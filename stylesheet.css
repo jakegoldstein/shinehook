@@ -56,8 +56,8 @@ code,
 kbd,
 pre,
 samp {
-    font-family: monospace, serif;
-    font-size: 1em
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
 }
 pre {
     white-space: pre;
@@ -154,7 +154,7 @@ table {
 }
 body {
     color: #000;
-    font-family: "Courier New", Courier, Monaco
+    font-family: 'Open Sans', sans-serif;
 }
 a {
     color: #000;
@@ -231,7 +231,7 @@ fieldset {
 select {
     border: 1px solid #999;
     display: block;
-    font-family: 'Courier New', Courier, Monaco;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.27273em;
     padding: 0
 }
@@ -239,7 +239,7 @@ input,
 select,
 textarea {
     border: 1px solid black;
-    font-family: 'Courier New', Courier, Monaco;
+    font-family: 'Open Sans', sans-serif;
     padding: 0.18182em
 }
 .error label {
