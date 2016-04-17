@@ -1,0 +1,686 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+    display: block
+}
+audio,
+canvas,
+video {
+    display: inline-block
+}
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+[hidden] {
+    display: none
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+body {
+    margin: 0
+}
+a:active,
+a:hover {
+    outline: 0
+}
+h1 {
+    font-size: 2em
+}
+abbr[title] {
+    border-bottom: 1px dotted
+}
+b,
+strong {
+    font-weight: bold
+}
+dfn {
+    font-style: italic
+}
+mark {
+    background: #ff0;
+    color: #000
+}
+code,
+kbd,
+pre,
+samp {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word
+}
+q {
+    quotes: "\201C" "\201D" "\2018" "\2019"
+}
+small {
+    font-size: 80%
+}
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+sup {
+    top: -0.5em
+}
+sub {
+    bottom: -0.25em
+}
+img {
+    border: 0
+}
+svg:not(:root) {
+    overflow: hidden
+}
+figure {
+    margin: 0
+}
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em
+}
+legend {
+    border: 0;
+    padding: 0
+}
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0
+}
+button,
+input {
+    line-height: normal
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+button[disabled],
+input[disabled] {
+    cursor: default
+}
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0
+}
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+textarea {
+    overflow: auto;
+    vertical-align: top
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+body {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none
+}
+a:hover,
+a:focus {
+    color: #fff;
+    background-color: #FFC0CB;
+}
+body.home a {
+    padding: 7px 40px 7px 0
+}
+body.home a.no-right-padding {
+    padding-right: 0
+}
+body.home a span {
+    padding: 0 2px
+}
+
+.media p a {
+    text-decoration: underline;
+}
+
+body.home a:hover,
+body.home a:focus {
+    background-color: #FFC0CB
+}
+body.home a:hover span,
+body.home a:focus span {
+    color: #fff;
+    background-color: #FFC0CB
+}
+ul {
+    list-style: none;
+    padding: 0
+}
+h1 {
+    font-size: 1.3636363636em;
+    margin: 0
+}
+h2 {
+    font-size: 1em;
+    margin-top: 0
+}
+p {
+    font-size: 1em;
+    margin-top: 0
+}
+table {
+    border: 1px solid #999;
+    border-collapse: collapse;
+    margin: 0.90909em 0;
+    width: 100%
+}
+table th,
+table td {
+    border: 1px solid #999;
+    padding: 0.27273em
+}
+table th {
+    width: 4em
+}
+table th.title {
+    text-align: left;
+    width: 40.18182em
+}
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0 0 0.81818em 0
+}
+select {
+    border: 1px solid #999;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.27273em;
+    padding: 0
+}
+input,
+select,
+textarea {
+    border: 1px solid black;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0.18182em
+}
+.error label {
+    color: red
+}
+input[type="checkbox"],
+input[type="radio"] {
+    border: 0 none;
+    padding: 2px
+}
+.stores article {
+    color: #666;
+    float: left;
+    margin: 3.27273em 0.27273em 0 0;
+    position: relative;
+    overflow: hidden;
+    width: 14em
+}
+.stores article img {
+    height: 14.54545em;
+    margin-bottom: 1em;
+    width: 14em
+}
+.stores article img.overlay {
+    height: 14.54545em;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 14em
+}
+.stores article h1 {
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0.54545em
+}
+
+
+
+
+body.previews {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: moz-none;
+    -ms-user-select: none;
+    user-select: none
+}
+body.previews.preview-item #wrap #container {
+    height: 595px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+body.previews.preview-item #wrap footer {
+    display: none
+}
+.touch body.previews #slider {
+    margin: 0 auto
+}
+@media all and (max-height: 40.625em) {
+    body.previews #header {
+        height: 50%
+    }
+}
+@media all and (max-width: 63.75em) {
+    body.previews #img-main {
+        max-width: none
+    }
+}
+
+
+
+html {
+    height: 100%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: moz-none;
+    -ms-user-select: none;
+    user-select: none
+}
+.touch body {
+    padding: 0
+}
+body {
+    font-size: 0.6875em;
+    height: 100%;
+    min-width: 69.09091em !important;
+    padding: 0 1.09091em
+}
+#header {
+    background: transparent;
+    height: 50%;
+    margin: -20.45455em auto 4.09091em;
+    position: relative;
+    text-align: center;
+    width: 100%
+}
+#header hgroup {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -9.09091em;
+    *margin-left: -100px;
+    width: 18.18182em
+}
+#header .logo {
+    margin: 0 auto
+}
+#header time {
+    display: block;
+    font-size: 1.09091em;
+    margin: 1.33333em 0 0 0
+}
+#header time b {
+    font-weight: normal
+}
+.logo {
+    font-size: 1em;
+    width: 16.63636em
+}
+
+.logo a:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%
+}
+
+.logo a {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+    display: block;
+    margin: 0 auto;
+
+    background: url(http://www.shinehook.com/mainlogo.png) left top no-repeat;
+    background-size: 17.63636em 7.09091em;
+    width: 17.63636em;
+    height: 7.09091em
+}
+
+
+#wrap {
+    height: 42.72727em;
+    margin: 0 auto;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 60.54545em
+}
+#wrap:before,
+#wrap:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden
+}
+#wrap:after {
+    clear: both
+}
+.wrap-404 {
+    padding-top: 2.18182em;
+    text-align: center
+}
+
+#nav {
+    line-height: 1;
+    margin: 0 auto 3.63636em;
+    width: 60.54545em;
+    max-width: 100%
+}
+#nav:before,
+#nav:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden
+}
+#nav:after {
+    clear: both
+}
+#nav ul {
+    margin: 0
+}
+#nav li {
+    display: inline;
+    float: left;
+    margin-right: 1.18182em;
+    padding-bottom: 0.7em;
+    position: relative
+}
+#nav li#current-lang {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    cursor: pointer;
+    padding-left: 27px;
+    background-size: 19px 12px;
+    margin-right: 28px
+}
+#nav li#current-lang:hover {
+    font-weight: bold
+}
+#nav li#current-lang.en {
+    background: url(//d17ol771963kd3.cloudfront.net/assets/flags/gb-be55ab6004a2507627176d6edabc38c9.gif) no-repeat top left
+}
+
+#nav li:last-of-type {
+    margin-right: 0
+}
+#nav li:hover ul {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 1.6em
+}
+#nav ul ul {
+    display: none
+}
+#nav ul ul li {
+    display: block;
+    white-space: nowrap
+}
+#nav-main {
+    float: left
+}
+
+.layout1 #collections-container.review {
+    height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 20px
+}
+#nav-exit {
+    float: left
+}
+#nav-exit li {
+    margin: 0
+}
+
+.home {
+    background: #000;
+    color: #fff
+}
+.home #header {
+    margin: 0 auto 0 auto;
+    margin-top: -4.18182em;
+    z-index: 1000
+}
+.home #nav {
+    display: none
+}
+.home #wrap {
+    height: auto;
+    z-index: 1000
+}
+.home .logo {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+    display: block;
+    margin: 0 auto;
+    background: url(http://www.shinehook.com/mainlogo.png) left top no-repeat;
+    background-size: 17.63636em 7.09091em;
+    width: 17.63636em;
+    height: 7.09091em
+}
+.home .logo:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%
+}
+
+.home nav {
+    margin: 6.36364em 0 0 25.54545em;
+    overflow: visible;
+    width: 35em
+}
+.home .social a {
+    color: #666
+}
+.home a {
+    color: #666
+}
+.home ul {
+    margin: 0
+}
+.home li {
+    margin-bottom: 1.36364em
+}
+.home li ul {
+    display: none;
+    padding-left: 0.72727em;
+    white-space: nowrap
+}
+.home li:hover ul,
+.home li:hover li {
+    display: inline
+}
+#background-image-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 0
+}
+#background-image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none
+}
+
+#articles {
+    float: right;
+    height: 33.81818em;
+    overflow: auto;
+    position: relative;
+    width: 50%
+}
+
+.media .blurb {
+    .about .blurb {
+    height: auto;
+    margin: 5.63636em auto 0;
+    padding: 0;
+    width: 35em
+
+}
+
+.about .blurb {
+    height: auto;
+    margin: 5.63636em auto 0;
+    padding: 0;
+    width: 35em
+}
+.blurb {
+    font-size: 1em;
+    height: 41.36364em;
+    overflow: auto;
+    padding: 0 1em 0 0.45455em;
+    position: relative
+}
+
+@media all and (max-width: 63.75em) {
+    body.home,
+    body.layout1,
+    body.news,
+    body.about,
+    body.media {
+        min-width: 0 !important
+    }
+    .news #nav {
+        width: 47em
+    }
+    .news #container>h2 {
+        width: 20%;
+        padding-left: 70px
+    }
+    .news #articles.archive {
+        width: 60%
+    }
+    .home #wrap {
+        width: auto;
+        max-width: none
+    }
+    .home nav {
+        margin-left: auto;
+        margin-right: auto;
+        width: 230px;
+        padding-left: 70px
+    }
+    .preview-item.has-sidebar #wrap,
+    .preview-item.has-sidebar #container {
+        height: auto
+    }
+    .preview-item.has-sidebar #container {
+        margin-bottom: 1.81818em
+    }
+    .preview-item.has-sidebar #video-container {
+        padding: 0
+    }
+    #video-container {
+        padding: 0
+    }
+    #video-container .sidebar {
+        right: auto;
+        left: auto;
+        width: 100%
+    }
+    #video-container .sidebar ul {
+        display: block;
+        margin: 0;
+        margin-left: 0
+    }
+    #video-container .sidebar li {
+        display: inline;
+        float: left;
+        margin-top: 1.09091em;
+        margin-right: 1.09091em;
+        width: 9.09091em
+    }
+    #video-container .sidebar b {
+        white-space: normal
+    }
+}
+
+@media all and (max-width: 37.5em) {
+    #wrap,
+    #container {
+        height: auto
+    }
+    #wrap {
+        margin-bottom: 4.36364em
+    }
+}
+
+@media all and (max-height: 40.625em) {
+    #header {
+        height: auto;
+        margin: 3.54545em auto 4.09091em
+    }
+    #header hgroup {
+        bottom: auto;
+        left: auto;
+        margin: 0 auto;
+        position: relative;
+        width: 18.18182em
+    }
+    .preview-item #header {
+        margin-top: 0;
+        height: 50%
+    }
+    .home #header {
+        margin: 5.45455em auto 4.09091em
+    }
+}
