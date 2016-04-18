@@ -375,10 +375,10 @@ body {
     display: block;
     margin: 0 auto;
 
-    background: url(http://www.shinehook.com/mainlogo.png) left top no-repeat;
-    background-size: 17.63636em 7.09091em;
-    width: 17.63636em;
-    height: 7.09091em
+    background: url(https://imgur.com/0AxzFoz.png) left top no-repeat;
+    background-size: 27.63636em 11.09091em;
+    width: 27.63636em;
+    height: 11.09091em
 }
 
 
@@ -506,10 +506,10 @@ body {
     *text-indent: -9999px;
     display: block;
     margin: 0 auto;
-    background: url(http://www.shinehook.com/mainlogo.png) left top no-repeat;
-    background-size: 17.63636em 7.09091em;
-    width: 17.63636em;
-    height: 7.09091em
+    background: url(https://imgur.com/0AxzFoz.png) left top no-repeat;
+    background-size: 27.63636em 11.09091em;
+    width: 27.63636em;
+    height: 11.09091em
 }
 .home .logo:before {
     content: "";
@@ -519,7 +519,7 @@ body {
 }
 
 .home nav {
-    margin: 6.36364em 0 0 25.54545em;
+    margin: 3em 0 0 25.54545em;
     overflow: visible;
     width: 35em
 }
