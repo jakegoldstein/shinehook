@@ -161,11 +161,10 @@ a {
     cursor: pointer;
     text-decoration: none
 }
-a:hover,
-a:focus {
-    color: #fff;
-    background-color: #FFC0CB;
-}
+
+
+
+
 body.home a {
     padding: 7px 40px 7px 0
 }
@@ -180,10 +179,9 @@ body.home a span {
     text-decoration: underline;
 }
 
-body.home a:hover,
-body.home a:focus {
-    background-color: #FFC0CB
-}
+
+
+
 body.home a:hover span,
 body.home a:focus span {
     color: #fff;
@@ -375,10 +373,10 @@ body {
     display: block;
     margin: 0 auto;
 
-    background: url(http://www.shinehook.com/mainlogo.png) left top no-repeat;
-    background-size: 17.63636em 7.09091em;
-    width: 17.63636em;
-    height: 7.09091em
+   
+    background-size: 29.63636em 11.09091em;
+    width: 29.63636em;
+    height: 11.09091em
 }
 
 
@@ -506,10 +504,10 @@ body {
     *text-indent: -9999px;
     display: block;
     margin: 0 auto;
-    background: url(http://www.shinehook.com/mainlogo.png) left top no-repeat;
-    background-size: 17.63636em 7.09091em;
-    width: 17.63636em;
-    height: 7.09091em
+    
+    background-size: 29.63636em 11.09091em;
+    width: 29.63636em;
+    height: 11.09091em
 }
 .home .logo:before {
     content: "";
@@ -519,7 +517,7 @@ body {
 }
 
 .home nav {
-    margin: 6.36364em 0 0 25.54545em;
+    margin: 3em 0 0 25.54545em;
     overflow: visible;
     width: 35em
 }
